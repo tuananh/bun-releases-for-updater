@@ -25,5 +25,4 @@ jobs:
         committer_email: 41898282+github-actions[bot]@users.noreply.github.com
         fetch: false
         message: Update to release ${{ steps.fetch-release.outputs.LATEST_BUN_RELEASE }}
-        ${{steps.generate_qmkpid.outputs.output}}
         add: "bumper --force"
