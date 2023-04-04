@@ -4,9 +4,6 @@ on:
   schedule:
   # no reason, I just want to avoid midnight
     - cron: "05 01 * * *"
-defaults:
-  run:
-    working-directory: ./watcher
 jobs:
   update:
     runs-on: ubuntu-latest
